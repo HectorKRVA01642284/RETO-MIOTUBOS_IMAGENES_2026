@@ -1,0 +1,13 @@
+/data/
+/vt/
+/subset_10GB/
+/resultados/
+*.zip
+*.png
+*.tif
+*.tiff
+*.pt
+*.pth
+*.pdf
+__pycache__/
+.venv/
