@@ -1,0 +1,84 @@
+{
+  "estado": "provisional",
+  "semilla": 2026,
+  "pares_totales": 306,
+  "exclusiones": {
+    "0108f6b1-cell28.png": "imagen_identica_con_mascaras_en_conflicto",
+    "07722ad5-42d5b90b-a80c-4524-b17f-99018fff2a56_A3_03_04_Best.png": "rectangulo_atipico",
+    "09195104-cell21.png": "imagen_identica_con_mascaras_en_conflicto",
+    "0f0704fc-cell8.png": "imagen_identica_con_mascaras_en_conflicto",
+    "10f23e6d-cell32.png": "imagen_identica_con_mascaras_en_conflicto",
+    "141653d6-cell9.png": "imagen_identica_con_mascaras_en_conflicto",
+    "196ffab0-cell38.png": "imagen_identica_con_mascaras_en_conflicto",
+    "2b70bcae-cell1.png": "imagen_identica_con_mascaras_en_conflicto",
+    "31b7e487-42d5b90b-a80c-4524-b17f-99018fff2a56_A3_02_03_Best.png": "rectangulo_atipico",
+    "429ecf67-cell21.png": "imagen_identica_con_mascaras_en_conflicto",
+    "634a6598-cell38.png": "imagen_identica_con_mascaras_en_conflicto",
+    "76b4d449-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_04_03_Best.png": "imagen_identica_con_mascaras_en_conflicto",
+    "857fb71d-1cb78525-a7e5-4436-8262-f33beb93d74d_B1_02_06_Best.png": "rectangulo_atipico",
+    "87d4c6f1-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_04_03_Best.png": "imagen_identica_con_mascaras_en_conflicto",
+    "89612d35-cell2.png": "imagen_identica_con_mascaras_en_conflicto",
+    "898190c6-cell8.png": "imagen_identica_con_mascaras_en_conflicto",
+    "8aaf4f2a-cell32.png": "imagen_identica_con_mascaras_en_conflicto",
+    "922a7a35-cell1.png": "imagen_identica_con_mascaras_en_conflicto",
+    "a5750420-cell28.png": "imagen_identica_con_mascaras_en_conflicto",
+    "c264d669-cell21.png": "imagen_identica_con_mascaras_en_conflicto",
+    "d5456920-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_03_03_Best.png": "imagen_identica_con_mascaras_en_conflicto",
+    "e0ba335d-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_04_04_Best.png": "imagen_identica_con_mascaras_en_conflicto",
+    "ef592a8c-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_04_04_Best.png": "imagen_identica_con_mascaras_en_conflicto",
+    "ef706849-cell9.png": "imagen_identica_con_mascaras_en_conflicto",
+    "f2c7a99a-cell2.png": "imagen_identica_con_mascaras_en_conflicto",
+    "f6edfb6d-eebfb204-b362-4bb2-8684-6dc0c6a18f99_A2_03_03_Best.png": "imagen_identica_con_mascaras_en_conflicto"
+  },
+  "particiones": {
+    "entrenamiento": {
+      "imagenes": 196,
+      "mascaras_vacias": 24,
+      "grupos": [
+        "137a548c-ba26-40cc-bcac-d20d77cf6fd8",
+        "195893df-aa40-4944-8592-2fa62f94d608",
+        "1cb78525-a7e5-4436-8262-f33beb93d74d",
+        "35f892c1-da41-4a26-afbf-cb846cdf7436",
+        "363cffdd-c74f-4c96-98c0-e8734e461b69",
+        "42d5b90b-a80c-4524-b17f-99018fff2a56",
+        "4b2b8615-75d4-4b2e-bccd-5731cc9b8ffc",
+        "4bbba11f-35de-40fd-b133-6da58bccb122",
+        "517e7812-564f-487a-9338-613f21c56c3a",
+        "6a520882-d171-4890-9eb5-022367d2dd7c",
+        "7ddb4822-a089-40ee-9afb-a8b0117d3d32",
+        "88797675-e851-4bb9-93df-0d446823b511",
+        "9343f5d0-0b78-4d0d-9ec8-1fedd3645ef4",
+        "9e75d0f9-bb79-4db6-8f0a-a01cdb15d2d0",
+        "ca6c3fb1-be85-468c-9b60-7d9e94829e57",
+        "d64a7ec0-a77e-4eaa-8c1d-e4c6e7afdcf4",
+        "d9035cfd-e2e1-45bc-accc-f717d8f8a6e6",
+        "daf8b91e-da39-4130-ac30-d158a92666fd",
+        "f23e64e2-8f62-4391-bd64-e8ecbaafc9be",
+        "sin_uuid"
+      ]
+    },
+    "validacion": {
+      "imagenes": 42,
+      "mascaras_vacias": 5,
+      "grupos": [
+        "1eba6db2-8449-4040-b93d-3a69b30070ff",
+        "2ab5ac69-bc0f-4173-a326-cc1fecc40538",
+        "30099d5a-1025-45ed-8700-536dea0ebb9c",
+        "d58ccaa3-12bd-4a58-ac75-6c90482cc329",
+        "d62536a3-1443-496e-a189-0c39acfa33eb"
+      ]
+    },
+    "prueba": {
+      "imagenes": 42,
+      "mascaras_vacias": 5,
+      "grupos": [
+        "2d2dc951-22b0-48df-b1ce-0157ca9e29fa",
+        "6a55a585-2551-49dd-be42-a9371d0c40ea",
+        "b1db384e-b79a-4fa0-a47d-aa0aebe3a2bd",
+        "e5f15412-aaff-475b-a3c6-511f84257343",
+        "eebfb204-b362-4bb2-8684-6dc0c6a18f99",
+        "fc183976-b90b-42f5-b0f5-3142ad00fae7"
+      ]
+    }
+  }
+}

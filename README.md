@@ -27,6 +27,8 @@ La auditoría genera un JSON con los resultados por imagen y dos paneles de insp
 
 La coincidencia exacta se compara sobre los píxeles de la imagen decodificada. Se detectó una anotación rectangular que cubre el 72.79 % de su imagen. Conviene confirmar su validez y revisar las máscaras en conflicto antes de fijar la partición. Los nombres incluyen identificadores repetidos cuya relación con las placas, pozos y muestras todavía debe confirmarse.
 
-## Próxima etapa
+## Partición provisional
 
-Fijar una partición reproducible por muestra, manteniendo cada grupo de imágenes idénticas en una sola partición. Comparar el método clásico y la U-Net usando IoU, Dice, precisión y sensibilidad. El conjunto `subset_10GB` queda para una prueba de escala posterior.
+Las listas para el piloto están en `particiones/piloto/`. Se generan con `python particionar.py resultados/auditoria.json particiones/piloto`. Consulta el [criterio de agrupación y sus límites](docs/02-particion-piloto.md) antes de usar estas listas.
+
+El siguiente experimento es construir la referencia clásica y compararla después con la U-Net usando IoU, Dice, precisión y sensibilidad. El conjunto `subset_10GB` queda para una prueba de escala posterior.
