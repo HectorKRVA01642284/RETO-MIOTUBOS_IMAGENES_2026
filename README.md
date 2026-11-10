@@ -31,4 +31,4 @@ La coincidencia exacta se compara sobre los píxeles de la imagen decodificada. 
 
 Las listas para el piloto están en `particiones/piloto/`. Se generan con `python particionar.py resultados/auditoria.json particiones/piloto`. Consulta el [criterio de agrupación y sus límites](docs/02-particion-piloto.md) antes de usar estas listas.
 
-La [línea base clásica](docs/03-linea-base.md) ya tiene resultados de validación. El siguiente experimento es entrenar una U-Net con la misma partición. La revisión inicial de `subset_10GB` está al final del informe del paso 3.
+La [línea base clásica](docs/03-linea-base.md) y la [U-Net](docs/04-unet-piloto.md) se ajustaron con la misma partición de validación. El siguiente experimento es comparar ambas configuraciones en la partición reservada de prueba. La revisión inicial de `subset_10GB` está al final del informe del paso 3.
