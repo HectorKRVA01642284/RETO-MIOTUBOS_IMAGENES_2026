@@ -2,6 +2,8 @@
 
 El reto consiste en segmentar los miotubos píxel por píxel y comparar un método clásico de procesamiento de imágenes con una U-Net. La primera etapa es la auditoría del conjunto etiquetado `vt`.
 
+El [informe final](docs/informe-final.md) resume el experimento. En 42 imágenes de prueba, la U-Net obtuvo Dice **0.371** y la línea clásica **0.055**. La [prueba de escala](docs/06-prueba-escala.md) procesó las **3,113 imágenes** de `subset_10GB` a **26.4 imágenes por segundo**.
+
 ## Reproducir la auditoría
 
 Usa Python 3.11 o posterior. Pasa la ruta de la carpeta `vt` que contiene directamente `images`, `masks_png`, `labels`, `verification` y `coco`.

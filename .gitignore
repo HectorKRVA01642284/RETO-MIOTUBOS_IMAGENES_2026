@@ -4,6 +4,7 @@
 /resultados/
 *.zip
 *.png
+!/docs/figuras/curvas-unet.png
 *.tif
 *.tiff
 *.pt

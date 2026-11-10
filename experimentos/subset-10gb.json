@@ -1,0 +1,35 @@
+{
+  "imagenes": 3113,
+  "bytes_entrada": 10001992564,
+  "resolucion_original": [
+    2592,
+    1944
+  ],
+  "resolucion_mascara": [
+    648,
+    486
+  ],
+  "lote": 4,
+  "hilos_lectura": 6,
+  "hardware": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "pytorch": "2.11.0+cu128",
+  "epoca": 11,
+  "umbral": 0.8,
+  "sha256_pesos": "32d6ce6e1a47df668f337e6c66bf8b9f1d2816b7680be16874840965a901afd3",
+  "precision_inferencia": "float32",
+  "segundos_calentamiento_excluidos": 0.4248881000094116,
+  "segundos_totales": 117.84770769999886,
+  "imagenes_por_segundo": 26.415448045240424,
+  "segundos_por_etapa": {
+    "lectura_y_reduccion": 73.82761320007558,
+    "inferencia_y_transferencia": 38.06582589990285,
+    "binarizacion_y_escritura": 5.924508799929754
+  },
+  "bytes_zip_predicciones": 1615461,
+  "imagenes_con_deteccion": 1381,
+  "imagenes_sin_deteccion": 1732,
+  "fraccion_predicha_media": 0.002188048501612753,
+  "fraccion_predicha_mediana": 0.0,
+  "fraccion_predicha_p90": 0.007379464512523497,
+  "fraccion_predicha_maxima": 0.053304247320022355
+}
