@@ -27,6 +27,8 @@ La U-Net recuperó varios tramos que la referencia clásica confundía con borde
 
 La RTX 3050 Laptop procesó los 3,113 PNG en lotes de cuatro, incluyendo lectura, reducción, inferencia y escritura de máscaras. Se obtuvieron **26.42 imágenes/s** y un ZIP de 1.62 MB con una máscara por archivo. La revisión visual detectó al menos una predicción sobre el borde curvo del campo. El conjunto carece de referencias para medir Dice o IoU.
 
+Para la entrega también se [exportaron las máscaras a 2592 × 1944](06-prueba-escala.md#máscaras-al-tamaño-de-la-imagen-original) mediante vecino más cercano. Esta exportación conserva las detecciones y se ejecuta por separado de la corrida cronometrada.
+
 Los identificadores de `vt` permitieron impedir que un mismo grupo por nombre se repartiera entre entrenamiento y prueba. Queda por verificar si distintos grupos comparten placa, pozo o muestra. También falta confirmar si las máscaras vacías son negativos revisados y si los tramos anotados cubren todos los miotubos relevantes. El siguiente trabajo sería aclarar esas preguntas y preparar una prueba etiquetada que represente los bordes del campo y otras condiciones de captura.
 
 ## Evidencia y reproducción

@@ -24,3 +24,13 @@ python procesar_subset.py "$env:USERPROFILE\Downloads\subset_10GB\subset_10GB" r
 ```
 
 El [registro de la corrida](../experimentos/subset-10gb.json) conserva la configuración y los tiempos medidos.
+
+## Máscaras al tamaño de la imagen original
+
+El paso siguiente exporta las 3,113 máscaras binarias a **2592 × 1944**, el mismo tamaño que los PNG originales. Se usa vecino más cercano, por lo que cada píxel de la cuadrícula predicha se replica en un bloque de 4 × 4. Esto conserva las dos clases y la cobertura de cada predicción. La red sigue prediciendo a 648 × 486. La exportación se ejecuta por separado y no forma parte del tiempo de la prueba de escala.
+
+```powershell
+python exportar_mascaras.py resultados/mascaras-subset.zip resultados/mascaras-subset-resolucion-original.zip
+```
+
+El nuevo ZIP incluye un índice con el recuento de píxeles predichos a resolución original. El ZIP reducido se conserva como punto de partida para reproducir la exportación.
