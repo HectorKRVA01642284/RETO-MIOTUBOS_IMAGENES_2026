@@ -9,6 +9,12 @@
 *.tiff
 *.pt
 *.pth
+*.npz
 *.pdf
 __pycache__/
 .venv/
+*.hdf5
+*.npy
+
+/modelos/
+*.partial

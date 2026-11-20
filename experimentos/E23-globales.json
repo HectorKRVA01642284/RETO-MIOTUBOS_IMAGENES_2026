@@ -1,0 +1,799 @@
+{
+  "source_report_sha256": "d3e130af1c66a01af113041ebb1b3d40552cadde7440ac8c5cf746c5b7de5639",
+  "point": "saved threshold; no new selection",
+  "reference_per_image_counts": [
+    {
+      "image": "047e5b0e-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_05_05_Best.png",
+      "tp": 25293,
+      "fp": 24419,
+      "fn": 30413
+    },
+    {
+      "image": "1507ad63-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_05_Best.png",
+      "tp": 38840,
+      "fp": 34760,
+      "fn": 4537
+    },
+    {
+      "image": "1c2ebfc5-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_02_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "21d44027-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_06_Best.png",
+      "tp": 45577,
+      "fp": 16071,
+      "fn": 95051
+    },
+    {
+      "image": "2431c34b-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_04_Best.png",
+      "tp": 72480,
+      "fp": 54336,
+      "fn": 31581
+    },
+    {
+      "image": "341a9fed-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_06_Best.png",
+      "tp": 21469,
+      "fp": 10083,
+      "fn": 2745
+    },
+    {
+      "image": "352e3276-d62536a3-1443-496e-a189-0c39acfa33eb_B2_03_03_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "3aebb32e-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_02_Best.png",
+      "tp": 9252,
+      "fp": 14748,
+      "fn": 35818
+    },
+    {
+      "image": "3f085ddc-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_05_Best.png",
+      "tp": 90776,
+      "fp": 33096,
+      "fn": 10747
+    },
+    {
+      "image": "421715f2-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_03_Best.png",
+      "tp": 30001,
+      "fp": 36767,
+      "fn": 8976
+    },
+    {
+      "image": "4781fa30-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_04_Best.png",
+      "tp": 13847,
+      "fp": 6761,
+      "fn": 5332
+    },
+    {
+      "image": "493e7d1a-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_04_Best.png",
+      "tp": 31343,
+      "fp": 13681,
+      "fn": 20084
+    },
+    {
+      "image": "52f898da-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_04_Best.png",
+      "tp": 39923,
+      "fp": 82189,
+      "fn": 3507
+    },
+    {
+      "image": "581ce914-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_05_Best.png",
+      "tp": 119184,
+      "fp": 90272,
+      "fn": 20440
+    },
+    {
+      "image": "583f02df-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_04_04_Best.png",
+      "tp": 23849,
+      "fp": 16999,
+      "fn": 11546
+    },
+    {
+      "image": "6713e5a9-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_06_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "6bfa4a27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_06_Best.png",
+      "tp": 28773,
+      "fp": 3963,
+      "fn": 8384
+    },
+    {
+      "image": "6f74ff9a-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_04_Best.png",
+      "tp": 61515,
+      "fp": 28309,
+      "fn": 27279
+    },
+    {
+      "image": "733546d9-d62536a3-1443-496e-a189-0c39acfa33eb_B2_04_05_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "747a691b-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_05_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "75803e92-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_06_Best.png",
+      "tp": 27156,
+      "fp": 10876,
+      "fn": 7975
+    },
+    {
+      "image": "7b06026e-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_03_Best.png",
+      "tp": 10135,
+      "fp": 10873,
+      "fn": 2933
+    },
+    {
+      "image": "80225825-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_05_Best.png",
+      "tp": 120073,
+      "fp": 101031,
+      "fn": 32960
+    },
+    {
+      "image": "8a619b51-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_02_06_Best.png",
+      "tp": 34749,
+      "fp": 21667,
+      "fn": 32836
+    },
+    {
+      "image": "9da2cb2b-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_04_Best.png",
+      "tp": 35647,
+      "fp": 86577,
+      "fn": 3064
+    },
+    {
+      "image": "a74f0d54-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_06_Best.png",
+      "tp": 13135,
+      "fp": 3153,
+      "fn": 1128
+    },
+    {
+      "image": "ab885840-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_05_Best.png",
+      "tp": 71695,
+      "fp": 97217,
+      "fn": 54632
+    },
+    {
+      "image": "ab89c0e5-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_04_Best.png",
+      "tp": 14826,
+      "fp": 11494,
+      "fn": 14961
+    },
+    {
+      "image": "b223a2fc-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_04_Best.png",
+      "tp": 16437,
+      "fp": 32011,
+      "fn": 10777
+    },
+    {
+      "image": "bc08d8b8-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_03_Best.png",
+      "tp": 24895,
+      "fp": 40385,
+      "fn": 9918
+    },
+    {
+      "image": "c0b12386-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_04_Best.png",
+      "tp": 38993,
+      "fp": 46015,
+      "fn": 43657
+    },
+    {
+      "image": "c67cf0c2-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_03_Best.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1997
+    },
+    {
+      "image": "c89fec27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_05_Best.png",
+      "tp": 4007,
+      "fp": 5529,
+      "fn": 3182
+    },
+    {
+      "image": "d03bf397-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_03_Best.png",
+      "tp": 15305,
+      "fp": 11399,
+      "fn": 15153
+    },
+    {
+      "image": "d371b235-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_03_Best.png",
+      "tp": 10800,
+      "fp": 5824,
+      "fn": 13957
+    },
+    {
+      "image": "d5b1620e-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_03_Best.png",
+      "tp": 34160,
+      "fp": 60960,
+      "fn": 23657
+    },
+    {
+      "image": "db903eda-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_05_Best.png",
+      "tp": 28874,
+      "fp": 16246,
+      "fn": 13041
+    },
+    {
+      "image": "dea92737-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_04_Best.png",
+      "tp": 26767,
+      "fp": 10337,
+      "fn": 41155
+    },
+    {
+      "image": "e3f02330-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_07_Best.png",
+      "tp": 18812,
+      "fp": 9060,
+      "fn": 26531
+    },
+    {
+      "image": "e58e1182-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_06_Best.png",
+      "tp": 20243,
+      "fp": 17661,
+      "fn": 3104
+    },
+    {
+      "image": "ea922c5c-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_04_06_Best.png",
+      "tp": 19518,
+      "fp": 13986,
+      "fn": 30890
+    },
+    {
+      "image": "f59e843f-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_05_Best.png",
+      "tp": 36601,
+      "fp": 52407,
+      "fn": 9529
+    }
+  ],
+  "candidates": [
+    {
+      "path": "outputs\\E23-swin-componentes\\control_soft\\mejor_global.pt",
+      "sha256": "41a24f2fd15815ab821694212b04ff8a93757d479c9ec838f1b461e32695b72b",
+      "probabilities_sha256": "933b6b7597a8f2d4cfd21d0106819a09a7977f4b8b23baf7be73d2ba8f2f2601",
+      "inspection_threshold": 0.52,
+      "metrics": {
+        "umbral": 0.52,
+        "dice": 0.612802117965709,
+        "iou": 0.4417553731173883,
+        "precision": 0.5828932798431601,
+        "sensibilidad": 0.6459462680802464
+      },
+      "native_export_verified": true,
+      "protected_components_lost_at_saved_threshold": 15,
+      "per_image_counts": [
+        {
+          "image": "047e5b0e-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_05_05_Best.png",
+          "tp": 24842,
+          "fp": 25606,
+          "fn": 30864
+        },
+        {
+          "image": "1507ad63-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_05_Best.png",
+          "tp": 38550,
+          "fp": 21162,
+          "fn": 4827
+        },
+        {
+          "image": "1c2ebfc5-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_02_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "21d44027-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_06_Best.png",
+          "tp": 66563,
+          "fp": 25517,
+          "fn": 74065
+        },
+        {
+          "image": "2431c34b-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_04_Best.png",
+          "tp": 69384,
+          "fp": 39032,
+          "fn": 34677
+        },
+        {
+          "image": "341a9fed-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_06_Best.png",
+          "tp": 22812,
+          "fp": 10228,
+          "fn": 1402
+        },
+        {
+          "image": "352e3276-d62536a3-1443-496e-a189-0c39acfa33eb_B2_03_03_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "3aebb32e-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_02_Best.png",
+          "tp": 13993,
+          "fp": 16631,
+          "fn": 31077
+        },
+        {
+          "image": "3f085ddc-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_05_Best.png",
+          "tp": 88611,
+          "fp": 27517,
+          "fn": 12912
+        },
+        {
+          "image": "421715f2-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_03_Best.png",
+          "tp": 33071,
+          "fp": 32977,
+          "fn": 5906
+        },
+        {
+          "image": "4781fa30-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_04_Best.png",
+          "tp": 14389,
+          "fp": 6123,
+          "fn": 4790
+        },
+        {
+          "image": "493e7d1a-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_04_Best.png",
+          "tp": 21175,
+          "fp": 8729,
+          "fn": 30252
+        },
+        {
+          "image": "52f898da-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_04_Best.png",
+          "tp": 38223,
+          "fp": 45217,
+          "fn": 5207
+        },
+        {
+          "image": "581ce914-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_05_Best.png",
+          "tp": 112918,
+          "fp": 44426,
+          "fn": 26706
+        },
+        {
+          "image": "583f02df-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_04_04_Best.png",
+          "tp": 25949,
+          "fp": 18867,
+          "fn": 9446
+        },
+        {
+          "image": "6713e5a9-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_06_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "6bfa4a27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_06_Best.png",
+          "tp": 27758,
+          "fp": 5202,
+          "fn": 9399
+        },
+        {
+          "image": "6f74ff9a-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_04_Best.png",
+          "tp": 61458,
+          "fp": 27326,
+          "fn": 27336
+        },
+        {
+          "image": "733546d9-d62536a3-1443-496e-a189-0c39acfa33eb_B2_04_05_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "747a691b-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_05_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "75803e92-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_06_Best.png",
+          "tp": 30085,
+          "fp": 14267,
+          "fn": 5046
+        },
+        {
+          "image": "7b06026e-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_03_Best.png",
+          "tp": 11619,
+          "fp": 14573,
+          "fn": 1449
+        },
+        {
+          "image": "80225825-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_05_Best.png",
+          "tp": 98538,
+          "fp": 78054,
+          "fn": 54495
+        },
+        {
+          "image": "8a619b51-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_02_06_Best.png",
+          "tp": 37191,
+          "fp": 23465,
+          "fn": 30394
+        },
+        {
+          "image": "9da2cb2b-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_04_Best.png",
+          "tp": 28461,
+          "fp": 37827,
+          "fn": 10250
+        },
+        {
+          "image": "a74f0d54-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_06_Best.png",
+          "tp": 12742,
+          "fp": 2330,
+          "fn": 1521
+        },
+        {
+          "image": "ab885840-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_05_Best.png",
+          "tp": 75376,
+          "fp": 77760,
+          "fn": 50951
+        },
+        {
+          "image": "ab89c0e5-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_04_Best.png",
+          "tp": 19650,
+          "fp": 11198,
+          "fn": 10137
+        },
+        {
+          "image": "b223a2fc-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_04_Best.png",
+          "tp": 20360,
+          "fp": 54088,
+          "fn": 6854
+        },
+        {
+          "image": "bc08d8b8-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_03_Best.png",
+          "tp": 24792,
+          "fp": 40776,
+          "fn": 10021
+        },
+        {
+          "image": "c0b12386-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_04_Best.png",
+          "tp": 53579,
+          "fp": 21989,
+          "fn": 29071
+        },
+        {
+          "image": "c67cf0c2-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_03_Best.png",
+          "tp": 1088,
+          "fp": 208,
+          "fn": 909
+        },
+        {
+          "image": "c89fec27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_05_Best.png",
+          "tp": 6326,
+          "fp": 9338,
+          "fn": 863
+        },
+        {
+          "image": "d03bf397-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_03_Best.png",
+          "tp": 18859,
+          "fp": 18565,
+          "fn": 11599
+        },
+        {
+          "image": "d371b235-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_03_Best.png",
+          "tp": 15880,
+          "fp": 11064,
+          "fn": 8877
+        },
+        {
+          "image": "d5b1620e-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_03_Best.png",
+          "tp": 21315,
+          "fp": 50941,
+          "fn": 36502
+        },
+        {
+          "image": "db903eda-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_05_Best.png",
+          "tp": 30582,
+          "fp": 12314,
+          "fn": 11333
+        },
+        {
+          "image": "dea92737-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_04_Best.png",
+          "tp": 32345,
+          "fp": 8471,
+          "fn": 35577
+        },
+        {
+          "image": "e3f02330-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_07_Best.png",
+          "tp": 13056,
+          "fp": 10368,
+          "fn": 32287
+        },
+        {
+          "image": "e58e1182-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_06_Best.png",
+          "tp": 21685,
+          "fp": 12667,
+          "fn": 1662
+        },
+        {
+          "image": "ea922c5c-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_04_06_Best.png",
+          "tp": 18575,
+          "fp": 12433,
+          "fn": 31833
+        },
+        {
+          "image": "f59e843f-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_05_Best.png",
+          "tp": 32617,
+          "fp": 41847,
+          "fn": 13513
+        }
+      ]
+    },
+    {
+      "path": "outputs\\E23-swin-componentes\\componentes\\mejor_global.pt",
+      "sha256": "01345a45e96537f50c1808c0b18c621428b9fbead6479766e05bfdd1800384f0",
+      "probabilities_sha256": "d153ce447662d5e7afe81d081f7e9811dd56e3ccc19606a4ab51d2a82701a88a",
+      "inspection_threshold": 0.57,
+      "metrics": {
+        "umbral": 0.57,
+        "dice": 0.6130531746632223,
+        "iou": 0.44201635092561037,
+        "precision": 0.5867683895742756,
+        "sensibilidad": 0.6418032947651586
+      },
+      "native_export_verified": true,
+      "protected_components_lost_at_saved_threshold": 10,
+      "per_image_counts": [
+        {
+          "image": "047e5b0e-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_05_05_Best.png",
+          "tp": 25397,
+          "fp": 25595,
+          "fn": 30309
+        },
+        {
+          "image": "1507ad63-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_05_Best.png",
+          "tp": 38042,
+          "fp": 18678,
+          "fn": 5335
+        },
+        {
+          "image": "1c2ebfc5-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_02_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "21d44027-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_06_Best.png",
+          "tp": 69476,
+          "fp": 26444,
+          "fn": 71152
+        },
+        {
+          "image": "2431c34b-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_04_Best.png",
+          "tp": 68815,
+          "fp": 34833,
+          "fn": 35246
+        },
+        {
+          "image": "341a9fed-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_06_Best.png",
+          "tp": 22803,
+          "fp": 10045,
+          "fn": 1411
+        },
+        {
+          "image": "352e3276-d62536a3-1443-496e-a189-0c39acfa33eb_B2_03_03_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "3aebb32e-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_02_Best.png",
+          "tp": 15056,
+          "fp": 18848,
+          "fn": 30014
+        },
+        {
+          "image": "3f085ddc-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_05_Best.png",
+          "tp": 86856,
+          "fp": 25800,
+          "fn": 14667
+        },
+        {
+          "image": "421715f2-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_03_Best.png",
+          "tp": 33517,
+          "fp": 33027,
+          "fn": 5460
+        },
+        {
+          "image": "4781fa30-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_04_Best.png",
+          "tp": 14091,
+          "fp": 5973,
+          "fn": 5088
+        },
+        {
+          "image": "493e7d1a-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_04_Best.png",
+          "tp": 18032,
+          "fp": 8528,
+          "fn": 33395
+        },
+        {
+          "image": "52f898da-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_04_Best.png",
+          "tp": 37158,
+          "fp": 41002,
+          "fn": 6272
+        },
+        {
+          "image": "581ce914-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_05_Best.png",
+          "tp": 111442,
+          "fp": 39982,
+          "fn": 28182
+        },
+        {
+          "image": "583f02df-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_04_04_Best.png",
+          "tp": 25778,
+          "fp": 17998,
+          "fn": 9617
+        },
+        {
+          "image": "6713e5a9-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_06_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "6bfa4a27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_06_Best.png",
+          "tp": 27255,
+          "fp": 5369,
+          "fn": 9902
+        },
+        {
+          "image": "6f74ff9a-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_04_Best.png",
+          "tp": 62561,
+          "fp": 28751,
+          "fn": 26233
+        },
+        {
+          "image": "733546d9-d62536a3-1443-496e-a189-0c39acfa33eb_B2_04_05_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "747a691b-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_05_Best.png",
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        {
+          "image": "75803e92-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_06_Best.png",
+          "tp": 30711,
+          "fp": 16441,
+          "fn": 4420
+        },
+        {
+          "image": "7b06026e-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_03_Best.png",
+          "tp": 11482,
+          "fp": 14966,
+          "fn": 1586
+        },
+        {
+          "image": "80225825-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_05_Best.png",
+          "tp": 90688,
+          "fp": 67792,
+          "fn": 62345
+        },
+        {
+          "image": "8a619b51-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_02_06_Best.png",
+          "tp": 38762,
+          "fp": 26150,
+          "fn": 28823
+        },
+        {
+          "image": "9da2cb2b-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_04_Best.png",
+          "tp": 27145,
+          "fp": 37063,
+          "fn": 11566
+        },
+        {
+          "image": "a74f0d54-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_06_Best.png",
+          "tp": 12865,
+          "fp": 2303,
+          "fn": 1398
+        },
+        {
+          "image": "ab885840-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_05_Best.png",
+          "tp": 74308,
+          "fp": 72860,
+          "fn": 52019
+        },
+        {
+          "image": "ab89c0e5-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_04_Best.png",
+          "tp": 19556,
+          "fp": 11836,
+          "fn": 10231
+        },
+        {
+          "image": "b223a2fc-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_04_Best.png",
+          "tp": 20363,
+          "fp": 53397,
+          "fn": 6851
+        },
+        {
+          "image": "bc08d8b8-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_03_Best.png",
+          "tp": 25104,
+          "fp": 39984,
+          "fn": 9709
+        },
+        {
+          "image": "c0b12386-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_04_Best.png",
+          "tp": 53180,
+          "fp": 20132,
+          "fn": 29470
+        },
+        {
+          "image": "c67cf0c2-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_03_Best.png",
+          "tp": 1307,
+          "fp": 229,
+          "fn": 690
+        },
+        {
+          "image": "c89fec27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_05_Best.png",
+          "tp": 6340,
+          "fp": 10236,
+          "fn": 849
+        },
+        {
+          "image": "d03bf397-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_03_Best.png",
+          "tp": 20165,
+          "fp": 20315,
+          "fn": 10293
+        },
+        {
+          "image": "d371b235-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_03_Best.png",
+          "tp": 16377,
+          "fp": 11543,
+          "fn": 8380
+        },
+        {
+          "image": "d5b1620e-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_03_Best.png",
+          "tp": 20612,
+          "fp": 50668,
+          "fn": 37205
+        },
+        {
+          "image": "db903eda-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_05_Best.png",
+          "tp": 31061,
+          "fp": 12443,
+          "fn": 10854
+        },
+        {
+          "image": "dea92737-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_04_Best.png",
+          "tp": 33701,
+          "fp": 10139,
+          "fn": 34221
+        },
+        {
+          "image": "e3f02330-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_07_Best.png",
+          "tp": 13707,
+          "fp": 12469,
+          "fn": 31636
+        },
+        {
+          "image": "e58e1182-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_06_Best.png",
+          "tp": 21759,
+          "fp": 12737,
+          "fn": 1588
+        },
+        {
+          "image": "ea922c5c-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_04_06_Best.png",
+          "tp": 19465,
+          "fp": 14199,
+          "fn": 30943
+        },
+        {
+          "image": "f59e843f-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_05_Best.png",
+          "tp": 31242,
+          "fp": 39974,
+          "fn": 14888
+        }
+      ]
+    }
+  ],
+  "model_replaced": false
+}

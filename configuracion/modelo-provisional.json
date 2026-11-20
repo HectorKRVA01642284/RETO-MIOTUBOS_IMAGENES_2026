@@ -1,0 +1,28 @@
+{
+  "estado": "provisional",
+  "arquitectura": "ensemble_swin",
+  "archivo": "miotubos-e23-provisional.pt",
+  "descarga": "https://github.com/HectorKRVA01642284/RETO-MIOTUBOS_IMAGENES_2026/releases/download/modelo-provisional-e23/miotubos-e23-provisional.pt",
+  "sha256": "01345a45e96537f50c1808c0b18c621428b9fbead6479766e05bfdd1800384f0",
+  "bytes": 168570575,
+  "umbral": 0.57,
+  "factor_reduccion": 4,
+  "lote_validacion": 2,
+  "imagenes_validacion": 42,
+  "PNG_primaria": {
+    "dice": 0.6130531746632223,
+    "iou": 0.44201635092561037,
+    "precision": 0.5867683895742756,
+    "sensibilidad": 0.6418032947651586
+  },
+  "YOLO_complementaria": {
+    "dice": 0.6311595897939012,
+    "iou": 0.46109070501423244,
+    "precision": 0.613481457776993,
+    "sensibilidad": 0.6498867805793502
+  },
+  "regiones_protegidas": 181,
+  "regiones_cobertura_al_menos_mitad": 171,
+  "regiones_sin_solapamiento": 2,
+  "nota": "Las dos versiones usan las mismas predicciones. Validación reutilizada; anotaciones parciales. No es una prueba independiente."
+}

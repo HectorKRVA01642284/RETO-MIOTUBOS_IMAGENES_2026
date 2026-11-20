@@ -1,0 +1,17 @@
+{
+  "checkpoint_sha256": "01345a45e96537f50c1808c0b18c621428b9fbead6479766e05bfdd1800384f0",
+  "metadata_verificada": true,
+  "carga_estricta": true,
+  "device": "cuda",
+  "comparacion_nativa_lote_2": [
+    {
+      "imagen": "047e5b0e-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_05_05_Best.png",
+      "pixeles_diferentes": 0
+    },
+    {
+      "imagen": "1507ad63-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_05_Best.png",
+      "pixeles_diferentes": 0
+    }
+  ],
+  "metricas_recalculadas": true
+}

@@ -1,5 +1,40 @@
 # Segmentación de miotubos en imágenes de microscopía
 
+## Modelo provisional para continuar el proyecto
+
+Se selecciona **Swin-T + combinado U-Net/ResNet-18 (E23)**. En las mismas 42 imágenes obtiene **61.35 % de precisión y 64.99 % de sensibilidad con las etiquetas YOLO originales**, como evaluación complementaria. La medición primaria histórica con PNG es **58.68 % y 64.18 %**. YOLO nombra el formato de las etiquetas; el modelo seleccionado es un combinado de segmentación con Swin-T.
+
+Ambas mediciones usan los mismos pesos, predicciones y umbral: cambiar la referencia no representa aprendizaje adicional. Se adopta provisionalmente y conserva dos regiones completamente omitidas; la validación fue reutilizada y las etiquetas son parciales.
+
+- [Resumen del avance, depuración y límites](docs/07-avance-modelo-provisional.md).
+- [Presentación de dos diapositivas, con notas para exponer](presentaciones/Avance_modelo_provisional.pptx).
+- [Perfil exacto, métricas y SHA-256](configuracion/modelo-provisional.json).
+- [Checkpoint provisional en Releases](https://github.com/HectorKRVA01642284/RETO-MIOTUBOS_IMAGENES_2026/releases/tag/modelo-provisional-e23).
+
+Se publican los avances necesarios para usar este candidato y comprobar sus resultados. Los datasets siguen en el OneDrive del curso, enlazado más abajo. Los pesos se distribuyen en Releases; los ensayos descartados permanecen en el archivo local de investigación.
+
+### Ejecutar el candidato
+
+Usa un entorno virtual con Python 3.11 o posterior compatible con PyTorch. Estas versiones corresponden al entorno de la campaña; la instalación siguiente permite inferencia en CPU. En una GPU utiliza una instalación de PyTorch compatible con tu dispositivo.
+
+```bash
+python -m pip install -r requirements-modelo.txt
+python descargar_modelo.py
+python predecir_checkpoint.py modelos/miotubos-e23-provisional.pt ruta/a/imagenes resultados/provisional --limite 3
+```
+
+La descarga comprueba tamaño y SHA-256. El checkpoint conserva **umbral 0.57 y reducción por 4**; no se elige otro umbral para mostrar mejores cifras. El exportador procesa PNG automáticamente y genera máscaras binarias 0/255 con la resolución de los originales y un manifiesto de ejecución. No necesita que se marquen regiones a mano. Quita `--limite 3` para procesar la carpeta completa.
+
+Los resultados publicados se verificaron con lote 2 en la GPU de la campaña. El exportador portátil procesa una imagen a la vez; diferencias numéricas de lote o dispositivo pueden afectar píxeles muy próximos al umbral. Sus salidas nuevas son predicciones, no etiquetas confirmadas.
+
+### Depuración completada
+
+De 306 parejas auditadas, se apartaron 23 archivos duplicados con máscaras conflictivas y tres máscaras extremas. Quedan **280: 196 entrenamiento / 42 validación / 42 prueba histórica**. Los originales se conservan. La preparación incluye gris y normalización con estadísticas de entrenamiento. Un filtrado visual de ruido validado sigue pendiente; `subset_10GB` no se usó para ajustar esta campaña.
+
+## Piloto histórico y acceso a los datos
+
+Lo siguiente documenta el piloto previo y sus propios resultados; no atribuye sus métricas de prueba ni su velocidad al candidato E23.
+
 El reto consiste en segmentar los miotubos píxel por píxel y comparar un método clásico de procesamiento de imágenes con una U-Net. La primera etapa es la auditoría del conjunto etiquetado `vt`.
 
 El [informe final](docs/informe-final.md) resume el experimento. En 42 imágenes de prueba, la U-Net obtuvo Dice **0.371** y la línea clásica **0.055**. La [prueba de escala](docs/06-prueba-escala.md) procesó las **3,113 imágenes** de `subset_10GB` a **26.4 imágenes por segundo**.

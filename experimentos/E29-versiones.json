@@ -1,0 +1,354 @@
+{
+  "experiment": "E29-existing-annotation-versions",
+  "protocol_sha256": "3d67673fc978669836534143864f334824f6de2af54771fc0c4e314057904393",
+  "primary_reference_unchanged": true,
+  "model_training": false,
+  "threshold_selection": false,
+  "native_geometry_unchanged": true,
+  "audit": [
+    {
+      "image": "047e5b0e-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_05_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 19
+    },
+    {
+      "image": "1507ad63-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 3
+    },
+    {
+      "image": "1c2ebfc5-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_02_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 0
+    },
+    {
+      "image": "21d44027-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 34
+    },
+    {
+      "image": "2431c34b-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "341a9fed-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 4
+    },
+    {
+      "image": "352e3276-d62536a3-1443-496e-a189-0c39acfa33eb_B2_03_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 0
+    },
+    {
+      "image": "3aebb32e-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_02_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 18
+    },
+    {
+      "image": "3f085ddc-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 5
+    },
+    {
+      "image": "421715f2-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 6
+    },
+    {
+      "image": "4781fa30-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 1
+    },
+    {
+      "image": "493e7d1a-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 3
+    },
+    {
+      "image": "52f898da-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 4
+    },
+    {
+      "image": "581ce914-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 12
+    },
+    {
+      "image": "583f02df-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_04_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 5
+    },
+    {
+      "image": "6713e5a9-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_02_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 0
+    },
+    {
+      "image": "6bfa4a27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 5
+    },
+    {
+      "image": "6f74ff9a-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 19
+    },
+    {
+      "image": "733546d9-d62536a3-1443-496e-a189-0c39acfa33eb_B2_04_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 0
+    },
+    {
+      "image": "747a691b-d62536a3-1443-496e-a189-0c39acfa33eb_B2_02_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 0
+    },
+    {
+      "image": "75803e92-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "7b06026e-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_04_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 4
+    },
+    {
+      "image": "80225825-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_05_Best.png",
+      "added": 6922,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "8a619b51-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_02_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 17
+    },
+    {
+      "image": "9da2cb2b-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 5
+    },
+    {
+      "image": "a74f0d54-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_02_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 2
+    },
+    {
+      "image": "ab885840-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_05_Best.png",
+      "added": 8682,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "ab89c0e5-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_03_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 9
+    },
+    {
+      "image": "b223a2fc-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 6
+    },
+    {
+      "image": "bc08d8b8-30099d5a-1025-45ed-8700-536dea0ebb9c_A2_03_03_Best.png",
+      "added": 18147,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "c0b12386-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "c67cf0c2-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_02_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 2
+    },
+    {
+      "image": "c89fec27-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_04_05_Best.png",
+      "added": 4232,
+      "removed": 0,
+      "polygons": 4
+    },
+    {
+      "image": "d03bf397-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 9
+    },
+    {
+      "image": "d371b235-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_04_03_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 8
+    },
+    {
+      "image": "d5b1620e-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_03_Best.png",
+      "added": 5534,
+      "removed": 0,
+      "polygons": 5
+    },
+    {
+      "image": "db903eda-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_02_05_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 6
+    },
+    {
+      "image": "dea92737-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_04_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 16
+    },
+    {
+      "image": "e3f02330-1eba6db2-8449-4040-b93d-3a69b30070ff_A3_03_07_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 13
+    },
+    {
+      "image": "e58e1182-2ab5ac69-bc0f-4173-a326-cc1fecc40538_A2_03_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 4
+    },
+    {
+      "image": "ea922c5c-1eba6db2-8449-4040-b93d-3a69b30070ff_B3_04_06_Best.png",
+      "added": 0,
+      "removed": 0,
+      "polygons": 11
+    },
+    {
+      "image": "f59e843f-d58ccaa3-12bd-4a58-ac75-6c90482cc329_A2_03_05_Best.png",
+      "added": 21149,
+      "removed": 0,
+      "polygons": 3
+    }
+  ],
+  "added_pixels": 64666,
+  "images_changed": 6,
+  "results": [
+    {
+      "source": "referencia",
+      "threshold": 0.76,
+      "probabilities_sha256": "f94d879e0505d09c96649d7e289f78fc6e353d3e167cde137c6e916cde940c1a",
+      "PNG_primary": {
+        "dice": 0.5802428878205427,
+        "iou": 0.40869165777927796,
+        "precision": 0.5298797395964943,
+        "sensibilidad": 0.6411852182654932
+      },
+      "YOLO_supplementary": {
+        "dice": 0.5974473028264007,
+        "iou": 0.4259713763556738,
+        "precision": 0.5536192828928994,
+        "sensibilidad": 0.6488113300274269
+      },
+      "counts": {
+        "PNG": [
+          1274950,
+          1131162,
+          713477
+        ],
+        "YOLO": [
+          1332070,
+          1074042,
+          721023
+        ]
+      }
+    },
+    {
+      "source": "candidate-1",
+      "threshold": 0.52,
+      "probabilities_sha256": "933b6b7597a8f2d4cfd21d0106819a09a7977f4b8b23baf7be73d2ba8f2f2601",
+      "PNG_primary": {
+        "dice": 0.612802117965709,
+        "iou": 0.4417553731173883,
+        "precision": 0.5828932798431601,
+        "sensibilidad": 0.6459462680802464
+      },
+      "YOLO_supplementary": {
+        "dice": 0.6310444477804301,
+        "iou": 0.46096781356946165,
+        "precision": 0.6095047923322684,
+        "sensibilidad": 0.6541622810072413
+      },
+      "counts": {
+        "PNG": [
+          1284417,
+          919103,
+          704010
+        ],
+        "YOLO": [
+          1343056,
+          860464,
+          710037
+        ]
+      }
+    },
+    {
+      "source": "candidate-2",
+      "threshold": 0.57,
+      "probabilities_sha256": "d153ce447662d5e7afe81d081f7e9811dd56e3ccc19606a4ab51d2a82701a88a",
+      "PNG_primary": {
+        "dice": 0.6130531746632223,
+        "iou": 0.44201635092561037,
+        "precision": 0.5867683895742756,
+        "sensibilidad": 0.6418032947651586
+      },
+      "YOLO_supplementary": {
+        "dice": 0.6311595897939012,
+        "iou": 0.46109070501423244,
+        "precision": 0.613481457776993,
+        "sensibilidad": 0.6498867805793502
+      },
+      "counts": {
+        "PNG": [
+          1276179,
+          898749,
+          712248
+        ],
+        "YOLO": [
+          1334278,
+          840650,
+          718815
+        ]
+      }
+    }
+  ],
+  "interpretation": "PNG remains primary; YOLO is a supplementary version of provided annotations, not exhaustive biological truth. Any metric difference between versions is not model learning."
+}
